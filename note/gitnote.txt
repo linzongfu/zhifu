@@ -1,0 +1,7 @@
+初始化本地库     git init
+添加到远程库     git remote add origin git@github.com:linzongfu/zhifu.git
+提交到远程库出错  参考 http://www.open-open.com/lib/view/open1366080269265.html
+             命令   touch README
+                    git add README 
+                    git commit -m 'first commit'
+                    git push origin master

@@ -1,0 +1,10 @@
+laravel 版本 5.2.*
+创建服务器调试目录  php -S localhost:8000 -t xiaohu
+命令行 数据库连接  mysql -uroot -proot
+migration篇(注意在laravel目录里)
+     创建 php artisan make:migration create_table_table1
+     属性  $table->increments('id')               自增主键id
+           $table->string('name')->nullable()    字符型name 不为空
+           $table->tex ng('username')->unique()  字符型username  唯一
+model篇(注意在laravel目录里)
+     创建  php artisan make:model Question
